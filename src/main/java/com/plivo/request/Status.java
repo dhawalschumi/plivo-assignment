@@ -12,6 +12,8 @@ public class Status {
 	private String message;
 
 	private String error;
+	
+	public Status(){}
 
 	public Status(String messsage, String error) {
 		this.error = error;

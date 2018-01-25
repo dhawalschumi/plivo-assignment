@@ -20,8 +20,7 @@ public class PlivoSms {
 
 	private String text;
 
-	public PlivoSms() {
-	}
+	public PlivoSms() {}
 
 	public PlivoSms(String from, String to, String text) {
 		this.from = from;
